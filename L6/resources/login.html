@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="resources/styles.css">
+    </header>
+    <body>
+        <div class="center">
+            <img src="resources/logo.png" height="64px" width="64px"/>
+        </div>
+        <heading>Evil bank login page<br><!--%alert%--></heading>
+        <div id="form_wrapper" class="form_wrapper">
+            <input type='checkbox' id='form-switch'/>
+            <form id='login-form' action="login.php" method='post'>
+              <input type="text" name="username" placeholder="Username" required>
+              <input type="password" name="password" placeholder="Password" required>
+              <button type='submit'>Login</button>
+              <label for='form-switch'><b>Register</b></label>
+                <a href="resetpassword.php">Forgot password?</a>
+            </form>
+            <form id='register-form' action="register.php" method='post'>
+              <input type="text" name="username" placeholder="Username" required>
+              <input type="text" name="mail" placeholder="Email" required>
+              <input type="password" name="password" placeholder="Password" required>
+              <input type="password" name="rpassword" placeholder="Repeat Password" required>
+              <button type='submit'>Register</button>
+              <label for='form-switch'>Already a customer? Sign In</label>
+            </form>
+        </div>
+    </body>
+</html>

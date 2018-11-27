@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Welcome, %name%</h2>
+
+    <h3>Your account number: %accno%</h3>
+    <h3>Your money: $%money%</h3> 
+
+    <h3>Make a transaction:</h3>
+    <form id='transaction-form' action="confirm.php" method='post'>
+      <input type="hidden" name="from" value="%accno%" required/>
+      <input type="hidden" name="balance" value="%money%" required/>
+      <input type="text" name="to" placeholder="Reciever account name" required/>
+      <input type="text" name="amount" placeholder="amount" required/>
+      <button type='submit'>Send</button>
+    </form>
+
+    <button id="myButton">Log out</button>
+
+    <h3>Confirmed transactions:</h3>
+    %tr%
+
+    <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+          location.href = "index.php";
+      };
+    </script>
+  </body>
+</html>
