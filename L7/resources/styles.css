@@ -1,0 +1,55 @@
+form {
+    margin:0 auto;
+    width:300px
+}
+input {
+    margin-bottom:3px;
+    padding:10px;
+    width: 100%;
+    border:1px solid #CCC
+}
+button {
+    padding:10px
+}
+label {
+    cursor:pointer
+}
+
+.center{
+    position:relative;
+    width:20%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    left: calc((100% - 64px)/2);
+}
+
+ga{
+	font-family: sans-serif;
+	color:#0da500;
+	font-weight:bold;
+}
+
+ra{
+	font-family: sans-serif;
+	color:#c92f14;
+	font-weight:bold;
+}
+
+heading{
+    position:relative;
+    font-family: sans-serif;
+    left: calc((100% - 128px)/2);
+}
+
+#form-switch {
+    display:none
+}
+#register-form {
+    display:none
+}
+#form-switch:checked~#register-form {
+    display:block
+}
+#form-switch:checked~#login-form {
+    display:none
+}

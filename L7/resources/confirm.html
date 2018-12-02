@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <!--add css later-->
+  </header>
+  <body>
+    <h2>Transaction summary</h2>
+
+    <h3>Sender account number: %acc1%</h3>
+    <h3>Amount: $%money%</h3> 
+    <h3>Reciever: %acc2%</h3> 
+
+    <h3>Are you sure you want to finalize this transaction?</h3>
+    %al%
+    <br><button id="no">Go back</button><br>
+    <form action="send.php" method="post">
+      <input type="hidden" name="from" value="%acc1%" required/>
+      <input id="to" type="hidden" name="to" value="%acc2%" required/>
+      <input type="hidden" name="amount" value="%money%" required/>
+      <button id="yes">Confirm</button>
+    </form>
+
+    <script type="text/javascript">
+      document.getElementById("no").onclick = function () {
+        location.href = "login.php";
+      };
+
+      document.getElementById("yes").onclick = function () {
+        alert("Transaction confirmed:\nFrom: %acc1%\nTo: %acc2%\nAmount: $%money%")
+      };
+    </script>
+
+</html>

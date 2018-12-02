@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Useful extension",
+    "description": "A very friendly non-mailicious friendly helpful extension",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://localhost/*"
+            ],
+            "js": [
+                "malicious.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
