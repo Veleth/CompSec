@@ -1,0 +1,11 @@
+GET /mobi/ HTTP/1.1
+Host: 127.0.0.1
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://127.0.0.1/
+Authorization: Basic YWRtaW5pc3RyYXRvcjphZG1pbmlzdHJhdG9y
+Accept: skip/fish;
+Cookie: PHPSESSID=q7lrb8uctfdum9q9c0nli7r0j7
+

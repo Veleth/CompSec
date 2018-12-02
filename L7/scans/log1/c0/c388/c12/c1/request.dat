@@ -1,0 +1,13 @@
+POST /resources/send.php HTTP/1.1
+Host: 127.0.0.1
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://127.0.0.1/
+Authorization: Basic YWRtaW5pc3RyYXRvcjphZG1pbmlzdHJhdG9y
+Cookie: PHPSESSID=q7lrb8uctfdum9q9c0nli7r0j7
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 48
+
+from=%25acc1%25&to=%25acc2%25&amount=%25money%25

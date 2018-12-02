@@ -1,0 +1,16 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 02 Dec 2018 16:05:25 GMT
+Server: Apache/2.4.18 (Unix) OpenSSL/1.0.2g PHP/5.6.20 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/5.6.20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Range: bytes 0-139/140
+Content-Length: 140
+Keep-Alive: timeout=5, max=8
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<br />
+<b>Fatal error</b>:  Call to a member function fetch_row() on boolean in <b>/opt/lampp/htdocs/myPage.php</b> on line <b>18</b><br />
+!½SV

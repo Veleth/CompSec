@@ -1,0 +1,32 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 02 Dec 2018 16:06:14 GMT
+Server: Apache/2.4.18 (Unix) OpenSSL/1.0.2g PHP/5.6.20 mod_perl/2.0.8-dev Perl/v5.16.3
+Last-Modified: Sun, 02 Dec 2018 15:17:10 GMT
+ETag: "272-57c0b86b65109"
+Accept-Ranges: bytes
+Content-Length: 626
+Content-Range: bytes 0-625/626
+Keep-Alive: timeout=5, max=56
+Connection: Keep-Alive
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="resources/styles.css">
+    </header>
+    <body>
+        <div class="center">
+            <img src="resources/logo.png" height="64px" width="64px"/>
+        </div>
+        <heading>Password reset page<br>
+            %al%
+        </heading>
+        <div id="form_wrapper" class="form_wrapper">
+            <form id='reset' action="reset.php" method='post'>
+              <input type="text" name="email" placeholder="email" required>
+              <button type='submit'>Reset</button>
+            </form>
+        </div>
+    </body>
+</html>!

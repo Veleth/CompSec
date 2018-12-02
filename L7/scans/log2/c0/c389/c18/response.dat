@@ -1,0 +1,32 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 02 Dec 2018 16:17:52 GMT
+Server: Apache/2.4.18 (Unix) OpenSSL/1.0.2g PHP/5.6.20 mod_perl/2.0.8-dev Perl/v5.16.3
+Content-Range: bytes 0-2595/2596
+Content-Length: 2596
+Keep-Alive: timeout=5, max=83
+Connection: Keep-Alive
+Content-Type: text/html;charset=ISO-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /resources</title>
+ </head>
+ <body>
+<h1>Index of /resources</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="transaction.html">transaction.html</a>       </td><td align="right">2018-12-02 16:17  </td><td align="right"> 82 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="tobeconfirmed.html">tobeconfirmed.html</a>     </td><td align="right">2018-12-02 16:17  </td><td align="right">919 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="styles.css">styles.css</a>             </td><td align="right">2018-12-02 16:17  </td><td align="right">741 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="reset.html">reset.html</a>             </td><td align="right">2018-12-02 16:17  </td><td align="right">626 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/image2.gif" alt="[IMG]"></td><td><a href="logo.png">logo.png</a>               </td><td align="right">2018-12-02 16:17  </td><td align="right"> 18K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="login.html">login.html</a>             </td><td align="right">2018-12-02 16:17  </td><td align="right">1.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="hello.html">hello.html</a>             </td><td align="right">2018-12-02 16:17  </td><td align="right">858 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="confirm.html">confirm.html</a>           </td><td align="right">2018-12-02 16:17  </td><td align="right">958 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="admin.html">admin.html</a>             </td><td align="right">2018-12-02 16:17  </td><td align="right">335 </td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>

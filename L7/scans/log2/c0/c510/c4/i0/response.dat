@@ -1,0 +1,42 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 02 Dec 2018 16:14:28 GMT
+Server: Apache/2.4.18 (Unix) OpenSSL/1.0.2g PHP/5.6.20 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/5.6.20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Range: bytes 0-832/833
+Content-Length: 833
+Keep-Alive: timeout=5, max=62
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Welcome, Smith</h2>
+
+    <h3>Your account number: 6</h3>
+    <h3>Your money: $100</h3> 
+
+    <h3>Make a transaction:</h3>
+    <form id='transaction-form' action="confirm.php" method='post'>
+      <input type="hidden" name="from" value="6" required/>
+      <input type="hidden" name="balance" value="100" required/>
+      <input type="text" name="to" placeholder="Reciever account number" required/>
+      <input type="text" name="amount" placeholder="amount" required/>
+      <button type='submit'>Send</button>
+    </form>
+
+    <button id="myButton">Log out</button>
+
+    <h3>Confirmed transactions:</h3>
+    
+
+    <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+          location.href = "index.php";
+      };
+    </script>
+  </body>
+</html>
